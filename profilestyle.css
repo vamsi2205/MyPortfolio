@@ -506,12 +506,12 @@ nav .fa-solid{
         background-image: url(images/phonebg.png);
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 30%;
         font-size: 16px;
         /* display: none; */
     }
     .container-2{
-        margin-top: 75vh;
+        margin-top: 65vh;
     }
     .header-text h1{
         font-size: 30px;
