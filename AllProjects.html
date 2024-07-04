@@ -20,7 +20,7 @@
           <ul id="sidemenu">
             <li><a href="index.html">Home</a></li>
             <!-- <li><a href="#about">About</a></li> -->
-            <li><a href="#portfolio">Projects</a></li>
+            <!-- <li><a href="#portfolio">Projects</a></li> -->
             <li><a href="#services">Profiles</a></li>
             <li><a href="#contact">Contact</a></li>
             <li>
@@ -61,225 +61,608 @@
     <div id="portfolio">
       <div class="container">
         <h1 class="sub-title">All Projects</h1>
+        <h4 class="filter"><u>Filter(s)</u></h4>
+        <!-- Filters -->
+        <div id="myBtnContainer">
+          <button class="btnf active" onclick="filterSelection('all')">
+            Show all
+          </button>
+          <button class="btnf" onclick="filterSelection('nature')">
+            Consulting & Product
+          </button>
+          <button class="btnf" onclick="filterSelection('cars')">
+            Business/Data Analytics
+          </button>
+          <button class="btnf" onclick="filterSelection('people')">
+            Web/App Design & Development
+          </button>
+        </div>
         <div class="project-list">
-          <div class="project">
-            <img src="images/work-1.png" />
-            <div class="layer">
-              <h3>Trumio.ai</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+          <div class="row">
+            <div class="column cars">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-2.png" />
+                  <div class="layer">
+                    <h3>MillStory</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-2.png" />
-            <div class="layer">
-              <h3>MillStory Dashboard</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column people">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-3.png" />
+                  <div class="layer">
+                    <h3>Zomato</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-3.png" />
-            <div class="layer">
-              <h3>Zomato Product Analysis</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column nature">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-1.png" />
+                  <div class="layer">
+                    <h3>Trumio.ai</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-1.png" />
-            <div class="layer">
-              <h3>Trumio.ai</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column cars">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-2.png" />
+                  <div class="layer">
+                    <h3>MillStory</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-2.png" />
-            <div class="layer">
-              <h3>MillStory Dashboard</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column people">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-3.png" />
+                  <div class="layer">
+                    <h3>Zomato</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-3.png" />
-            <div class="layer">
-              <h3>Zomato Product Analysis</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column nature">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-1.png" />
+                  <div class="layer">
+                    <h3>Trumio.ai</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-1.png" />
-            <div class="layer">
-              <h3>Trumio.ai</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column cars">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-2.png" />
+                  <div class="layer">
+                    <h3>MillStory</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-2.png" />
-            <div class="layer">
-              <h3>MillStory Dashboard</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column people">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-3.png" />
+                  <div class="layer">
+                    <h3>Zomato</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-1.png" />
-            <div class="layer">
-              <h3>Trumio.ai</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column nature">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-1.png" />
+                  <div class="layer">
+                    <h3>Trumio.ai</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-2.png" />
-            <div class="layer">
-              <h3>MillStory Dashboard</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column cars">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-2.png" />
+                  <div class="layer">
+                    <h3>MillStory</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-3.png" />
-            <div class="layer">
-              <h3>Zomato Product Analysis</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column people">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-3.png" />
+                  <div class="layer">
+                    <h3>Zomato</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-1.png" />
-            <div class="layer">
-              <h3>Trumio.ai</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column nature">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-1.png" />
+                  <div class="layer">
+                    <h3>Trumio.ai</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-2.png" />
-            <div class="layer">
-              <h3>MillStory Dashboard</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column cars">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-2.png" />
+                  <div class="layer">
+                    <h3>MillStory</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-3.png" />
-            <div class="layer">
-              <h3>Zomato Product Analysis</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column people">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-3.png" />
+                  <div class="layer">
+                    <h3>Zomato</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-1.png" />
-            <div class="layer">
-              <h3>Trumio.ai</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column nature">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-1.png" />
+                  <div class="layer">
+                    <h3>Trumio.ai</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-2.png" />
-            <div class="layer">
-              <h3>MillStory Dashboard</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column cars">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-2.png" />
+                  <div class="layer">
+                    <h3>MillStory</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-3.png" />
-            <div class="layer">
-              <h3>Zomato Product Analysis</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column people">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-3.png" />
+                  <div class="layer">
+                    <h3>Zomato</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-1.png" />
-            <div class="layer">
-              <h3>Trumio.ai</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column nature">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-1.png" />
+                  <div class="layer">
+                    <h3>Trumio.ai</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-2.png" />
-            <div class="layer">
-              <h3>MillStory Dashboard</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column cars">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-2.png" />
+                  <div class="layer">
+                    <h3>MillStory</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <img src="images/work-3.png" />
-            <div class="layer">
-              <h3>Zomato Product Analysis</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                voluptates!
-              </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+            <div class="column people">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-3.png" />
+                  <div class="layer">
+                    <h3>Zomato</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column nature">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-1.png" />
+                  <div class="layer">
+                    <h3>Trumio.ai</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column cars">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-2.png" />
+                  <div class="layer">
+                    <h3>MillStory</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column people">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-3.png" />
+                  <div class="layer">
+                    <h3>Zomato</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column nature">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-1.png" />
+                  <div class="layer">
+                    <h3>Trumio.ai</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column cars">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-2.png" />
+                  <div class="layer">
+                    <h3>MillStory</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column people">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-3.png" />
+                  <div class="layer">
+                    <h3>Zomato</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column nature">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-1.png" />
+                  <div class="layer">
+                    <h3>Trumio.ai</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column cars">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-2.png" />
+                  <div class="layer">
+                    <h3>MillStory</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column people">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-3.png" />
+                  <div class="layer">
+                    <h3>Zomato</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column nature">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-1.png" />
+                  <div class="layer">
+                    <h3>Trumio.ai</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column cars">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-2.png" />
+                  <div class="layer">
+                    <h3>MillStory</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column people">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-3.png" />
+                  <div class="layer">
+                    <h3>Zomato</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column nature">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-1.png" />
+                  <div class="layer">
+                    <h3>Trumio.ai</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column cars">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-2.png" />
+                  <div class="layer">
+                    <h3>MillStory</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column people">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-3.png" />
+                  <div class="layer">
+                    <h3>Zomato</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column nature">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-1.png" />
+                  <div class="layer">
+                    <h3>Trumio.ai</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column cars">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-2.png" />
+                  <div class="layer">
+                    <h3>MillStory</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column people">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-3.png" />
+                  <div class="layer">
+                    <h3>Zomato</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column nature">
+              <div class="content">
+                <div class="project">
+                  <img src="images/work-1.png" />
+                  <div class="layer">
+                    <h3>Trumio.ai</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque, voluptates!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -334,7 +717,7 @@
     <!-- -----------------contact-------------- -->
     <div id="contact">
       <div class="container">
-        <div class="row">
+        <div class="row2">
           <div class="contact-left">
             <h1 class="sub-title">Contact Me</h1>
             <p>
@@ -420,6 +803,56 @@
           })
           .catch((error) => console.error("Error!", error.message));
       });
+    </script>
+    <!-- filters script -->
+    <script>
+      filterSelection("all"); // Execute the function and show all columns
+      function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("column");
+        if (c == "all") c = "";
+        // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+        for (i = 0; i < x.length; i++) {
+          w3RemoveClass(x[i], "show");
+          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+      }
+
+      // Show filtered elements
+      function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          if (arr1.indexOf(arr2[i]) == -1) {
+            element.className += " " + arr2[i];
+          }
+        }
+      }
+
+      // Hide elements that are not selected
+      function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);
+          }
+        }
+        element.className = arr1.join(" ");
+      }
+
+      // Add active class to the current button (highlight it)
+      var btnContainer = document.getElementById("myBtnContainer");
+      var btns = btnContainer.getElementsByClassName("btnf");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
     </script>
   </body>
 </html>
